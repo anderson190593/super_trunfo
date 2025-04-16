@@ -19,7 +19,7 @@ int main(){
     printf("\nDigite os dados da primeira carta:\n");
 
     printf("Estado: \n"); 
-    scanf(" %s", &estado1);
+    scanf(" %s", estado1);
     printf("Código (ex: A01): \n");     
     scanf(" %s", codigo1);
     printf("Nome da cidade: \n");     
@@ -37,7 +37,7 @@ int main(){
     printf("\nDigite os dados da segunda carta:\n");
 
     printf("Estado: \n"); 
-    scanf(" %s", &estado2);
+    scanf(" %s", estado2);
     printf("Código (ex: B02): \n"); 
     scanf(" %s", codigo2);
     printf("Nome da cidade: \n"); 
